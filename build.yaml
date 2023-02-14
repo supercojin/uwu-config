@@ -13,5 +13,5 @@
 #
 ---
 include:
-  - board: nrf52840dk_nrf52840
-    shield: qaz
+  - board: uwu30
+
