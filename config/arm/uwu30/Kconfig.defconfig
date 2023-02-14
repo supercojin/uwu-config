@@ -1,10 +1,10 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if UWU30
+if BOARD_UWU30
 
 config ZMK_KEYBOARD_NAME
-	default "osprey"
+	default "uwu30"
 
 if USB
 
@@ -31,4 +31,4 @@ config I2C
 config MAX17048
 	default y
 
-endif # UWU30
+endif # BOARD_UWU30
