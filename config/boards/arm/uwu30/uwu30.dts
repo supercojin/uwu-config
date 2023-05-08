@@ -63,10 +63,6 @@
 
 &gpio0 {
 	status = "okay";
-/*		cdc_acm_uart: cdc_acm_uart {
-		compatible = "zephyr,cdc_acm_uart";
-		label = "CDC_ACM_0";
-	}; */
 };
 
 &gpio1 {
@@ -75,13 +71,18 @@
 
 &usbd {
 	status = "okay";
+	/*		cdc_acm_uart: cdc_acm_uart {
+		compatible = "zephyr,cdc_acm_uart";
+		label = "CDC_ACM_0";
+	}; */
 };
 
 &i2c0 {
 	compatible = "nordic,nrf-twim";
-	status = "okay";
-	sda-pin = <24>;
-	scl-pin = <32>;
+	pintctrl-0 = <&i2c0_default>;
+	pinctrl-1 = <&i2c0_sleep>;
+	pinctrl-names = "default", "sleep";
+	clock-frequency = <100000>;
 
 	fuelgauge: max17048@36 {
 		compatible = "maxim,max17048";
