@@ -26,7 +26,11 @@ config ZMK_USB
 	default y
 
 config I2C
-	default n
+	default y
+
+config MAX17048
+	default y
+
 
 
 endif # BOARD_UWU30
