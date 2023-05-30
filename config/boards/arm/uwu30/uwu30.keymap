@@ -22,7 +22,7 @@
 		combo_mo2 {
 			timeout-ms = <100>;
 			key-positions = <28 29>;
-			bindings = <mo 2>;
+			bindings = <&mo 2>;
 		};
 	};
 };
