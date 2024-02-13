@@ -19,10 +19,4 @@ endif # USB
 config BT_CTLR
     default BT
 
-config I2C
-    default y
-
-config MAX17048
-    default y
-
 endif # BOARD_UWU30

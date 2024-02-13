@@ -29,7 +29,7 @@ manifest:
       revision: main
       import: app/west.yml
     # Add the name of the repository as a project.
-    - name: uwu30-zmk-config
+    - name: zmk-config
       remote: ojthetiny
       revision: master # This is the name of the branch you want to use.
   self:
