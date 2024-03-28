@@ -1,4 +1,6 @@
 {
+  "id": "uwu30",
+  "name": "uwu30",
   "layouts": {
     "default_transform": {
       "name": "default_transform",
@@ -45,5 +47,6 @@
         { "row": 3, "col": 9, "x":  9.5, "y": 3, "label":      "Ctrl", "u": 1.25 }
       ]
     }
-  }
+  },
+  "sensors": []
 }
